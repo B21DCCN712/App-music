@@ -31,7 +31,7 @@ const app = {
     {
       name: "Queencard",
       singer: "(G)I-DLE",
-      path: "../acces/music/Queencard-GIDLE-9478005.mp3",
+      path: "./acces/music/Queencard-GIDLE-9478005.mp3",
       image:
         "https://6.soompi.io/wp-content/uploads/image/20230603205508_GIDLE.jpg?s=900x600&e=t",
       isFavorite: false,
@@ -39,7 +39,7 @@ const app = {
     {
       name: "Pink Venom",
       singer: "BLACKPINK",
-      path: "../acces/music/PinkVenom-BLACKPINK-7802564.mp3",
+      path: "./acces/music/PinkVenom-BLACKPINK-7802564.mp3",
       image:
         "https://static.accessonline.com/uploads/2019/04/GettyImages-1142386627.jpg",
       isFavorite: false,
@@ -47,21 +47,21 @@ const app = {
     {
       name: "How You Like That",
       singer: "BLACKPINK",
-      path: "../acces/music/HowYouLikeThat-BLACKPINK-6720100.mp3",
+      path: "./acces/music/HowYouLikeThat-BLACKPINK-6720100.mp3",
       image: "https://a.ksd-i.com/a/2020-07-03/128099-853479.jpg",
       isFavorite: false,
     },
     {
       name: "DDU-DU DDU-DU",
       singer: "BLACKPINK",
-      path: "../acces/music/DduduDdudu-BLACKPINK-6291998.mp3",
+      path: "./acces/music/DduduDdudu-BLACKPINK-6291998.mp3",
       image: "http://pbs.twimg.com/media/Di7dhWIXgAEjtY9.jpg",
       isFavorite: false,
     },
     {
       name: "Lovesick Girls",
       singer: "BLACKPINK",
-      path: "../acces/music/LovesickGirls-BLACKPINK-6720104.mp3",
+      path: "./acces/music/LovesickGirls-BLACKPINK-6720104.mp3",
       image:
         "https://images.genius.com/95c148a0d9cacf0e7548a297dd2c0a02.1000x1000x1.png",
       isFavorite: false,
@@ -69,14 +69,14 @@ const app = {
     {
       name: "Typa Girl",
       singer: "BLACKPINK",
-      path: "../acces/music/TypaGirl-BLACKPINK-7887143.mp3",
+      path: "./acces/music/TypaGirl-BLACKPINK-7887143.mp3",
       image: "https://i.ytimg.com/vi/xQf3hb3dokg/maxresdefault.jpg",
       isFavorite: false,
     },
     {
       name: "Cheri Cheri Lady",
       singer: "Raftaar x Harjas",
-      path: "../acces/music/Cheri-Cheri-Lady-Only-C-ISAAC.mp3",
+      path: "./acces/music/Cheri-Cheri-Lady-Only-C-ISAAC.mp3",
       image: "http://img.cdandlp.com/2012/10/imgL/115730861.jpg",
       isFavorite: false,
     },
@@ -230,7 +230,6 @@ const app = {
         }
       }
     };
-
   },
 
   // load current song based on current index
